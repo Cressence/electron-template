@@ -1,8 +1,16 @@
 {
   "name": "electron-template",
   "version": "0.1.0",
+  "description": "React electron boiler plate",
+  "author": {
+    "name": "Cressence"
+  },
   "private": true,
   "main": "public/electron.js",
+  "build": {
+    "appId": "electron.boiler"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
